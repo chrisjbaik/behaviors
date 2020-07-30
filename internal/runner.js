@@ -230,6 +230,7 @@ async function launchBrowser(runConfig) {
   const { closeBrowser, browserWSEndpoint, chromeProcess } = await launch({
     executable: runConfig.chromeEXE,
     args,
+    dumpio: true,
   });
   const b = await Browser.connect(browserWSEndpoint, {
     closeCallback: closeBrowser,

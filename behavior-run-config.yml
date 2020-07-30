@@ -1,9 +1,9 @@
 buildConfig: ./behavior-config.yml
-behavior: ./behaviors/instagram/user.js
-url: 'https://www.instagram.com/rhizomedotorg/'
+behavior: ./behaviors/gofundme/campaign.js
+url: 'https://www.gofundme.com/f/23bwcr8'
 
 # path to chrome executable or command
-#chromeEXE: google-chrome-beta
+chromeEXE: /usr/local/bin/chromium
 openDevTools: true
 
 mode: build-watch
